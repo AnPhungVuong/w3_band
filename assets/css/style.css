@@ -10,12 +10,15 @@ html{
 }
 
 #main{
-
+    
 }
 
 #header{
     --height: 46px;
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #nav{
@@ -103,7 +106,8 @@ html{
 
 #slider
 {
-    min-height: 500px;
+    min-width: 500px;
+    margin-top: 46px;
 }
 
 #content{
