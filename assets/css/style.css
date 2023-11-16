@@ -19,17 +19,19 @@ html{
 }
 
 #nav{
-    
+    display: inline-block;
 }
 
 #nav li{
     display: inline-block;
     position: relative;
 
+
 }
 
 #nav li:hover {
     background-color: #ccc;
+    cursor: pointer;
 }
 #nav li:hover a {
     color: black;
@@ -77,6 +79,28 @@ html{
     padding: 0 16px;
     
 }
+
+.nav-arrow-down{
+    font-size: 14px;
+}
+
+#header .search-btn{
+    float: right;
+    padding: 0 24px;
+}
+
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-icon{
+    color: white;
+    font-size: 20px;
+    line-height: var(--height);
+    
+}
+
 #slider
 {
     min-height: 500px;
