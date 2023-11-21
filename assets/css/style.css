@@ -134,6 +134,39 @@ html{
 
 }
 
+
+#content .content-section{
+    width: 800px;
+    margin: auto;
+    padding: 64px 0;
+}
+
+#content .section-heading , #content .section-sub-heading{
+    text-align: center;
+}
+
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading{
+    font-size: 15px;
+    margin: 25px 0;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-text{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+
+
 #footer{
 
 }
