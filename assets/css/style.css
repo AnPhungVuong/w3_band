@@ -163,6 +163,31 @@ html{
     text-align: justify;
     line-height: 1.5;
 }
+#content .member-wrap{
+    margin-top: 48px;    
+    text-align: center;
+    overflow: hidden;
+
+}
+
+#content .member-info{
+    float: left;
+    width: calc(100%/3);
+
+}
+
+#content .member-info .name{
+    font-size: 15px;
+}
+
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 3px;
+}
+
+
+
 
 
 
