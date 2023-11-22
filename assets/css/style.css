@@ -28,11 +28,20 @@ html {
     margin: 0px -8px;
 }
 
+.row::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
 .col{
     float: left;
     padding: 0px 8px ;
 }
 
+.col-full{
+    width: 100%;
+}
 .col-half{
     width: calc(100% / 2);
 
@@ -43,6 +52,13 @@ html {
 
 }
 
+.mt-8{
+    margin-top: 8px;
+}
+
+.mt-16{
+    margin-top: 16px; !important
+}
 #header {
   --height: 46px;
   background-color: black;
@@ -282,6 +298,41 @@ html {
   cursor: pointer;
   color: black;
 }
+
+.contact-content{
+    margin-top: 48px;
+}
+
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i{
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form{
+    font-size: 15px;
+}
+
+.contact-form .form-control{
+    padding: 10px;
+    border: #ccc solid 1px;
+    width: 100%;
+}
+
+
+.contact-form .form-submit{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 16px;
+    float: right;
+    outline: none;
+}
+
 
 #footer {
 }
