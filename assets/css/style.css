@@ -12,17 +12,33 @@ html {
 #main {
 }
 
-.clear {
-  clear: both;
+
+
+.pull-right{
+    float: right !important;
 }
 
 .text-white {
-  color: white; !important
+  color: white !important;
 }
 
 .text-center{
-    text-align: center; !important
+    text-align: center !important;
 }
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 16px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    color: black;
+  }
 
 .row{
     margin: 0px -8px;
@@ -57,7 +73,7 @@ html {
 }
 
 .mt-16{
-    margin-top: 16px; !important
+    margin-top: 16px !important;
 }
 #header {
   --height: 46px;
@@ -172,7 +188,7 @@ html {
 #content .content-section {
   width: 800px;
   margin: auto;
-  padding: 64px 0;
+  padding: 64px 0 112px;
 }
 
 #content .section-heading,
@@ -254,7 +270,6 @@ html {
 
 #content .place-list {
   font-size: 15px;
-  padding-bottom: 48px;
 }
 
 
@@ -285,19 +300,9 @@ html {
   line-height: 1.4;
 }
 
-#content .buy-ticket-btn {
-  background-color: black;
-  color: white;
-  padding: 8px 16px;
-  margin-top: 16px;
-  border: none;
-}
 
-#content .buy-ticket-btn:hover {
-  background-color: #ccc;
-  cursor: pointer;
-  color: black;
-}
+
+
 
 .contact-content{
     margin-top: 48px;
@@ -323,19 +328,40 @@ html {
     width: 100%;
 }
 
-
-.contact-form .form-submit{
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    padding: 10px 16px;
-    float: right;
-    outline: none;
+map-section img{
+    width: 100%;
 }
+
 
 
 #footer {
+  padding: 64px 16px;
+  
 }
+
+#footer .social-list{
+  font-size: 24px;
+}
+
+#footer .social-list a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .social-list a:hover{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copy-right{
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copy-right a{
+  color: rgba(0, 0, 0, 0.6);
+
+}
+
 
 .modal {
   position: fixed;
