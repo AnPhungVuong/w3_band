@@ -116,6 +116,7 @@ html {
   line-height: var(--height);
   padding: 0px 24px;
   text-transform: uppercase;
+  display: block;
 }
 
 #nav .subnav {
@@ -477,22 +478,32 @@ map-section img{
   .hamburger-btn{
     display: none;
   }
+
+  
 }
 
 @media (max-width: 740px){
+  #nav{
+    display: block;
+  }
+  
   #nav li {
     display: block;
   }
-  #nav li:not(:first-child) {
-    display: none;/* Your styles here */
+
+  #nav li:not(:first-child){
+    display: none;
   }
+
   #header .search-btn {
     display: none;
   }
 
   #header .hamburger-btn {
-    float: right;
     padding: 0 24px;
+    position: absolute;
+    top:0;
+    right: 0;
   }
 }
 
