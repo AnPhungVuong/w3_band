@@ -83,6 +83,7 @@ html {
   top: 0;
   width: 100%;
   z-index: 1;
+  overflow: hidden;
 }
 
 #nav {
@@ -151,6 +152,11 @@ html {
 #header .search-btn:hover {
   background-color: #f44336;
   cursor: pointer;
+}
+
+#header .hamburger-btn:hover{
+  background-color: #ccc;
+  color: white;
 }
 
 #header .search-icon {
@@ -467,5 +473,26 @@ map-section img{
   }
 }
 
+@media (min-width:740px){
+  .hamburger-btn{
+    display: none;
+  }
+}
 
+@media (max-width: 740px){
+  #nav li {
+    display: block;
+  }
+  #nav li:not(:first-child) {
+    display: none;/* Your styles here */
+  }
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .hamburger-btn {
+    float: right;
+    padding: 0 24px;
+  }
+}
 
