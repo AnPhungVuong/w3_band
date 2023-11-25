@@ -130,7 +130,7 @@ html {
 }
 
 #nav .subnav li {
-  display: block;
+  /* display: block; */
   min-width: 200px;
 }
 
@@ -479,7 +479,7 @@ map-section img{
     display: none;
   }
 
-  
+
 }
 
 @media (max-width: 740px){
@@ -490,6 +490,8 @@ map-section img{
   #nav li {
     display: block;
   }
+
+  
 
   #nav li:not(:first-child){
     display: none;
