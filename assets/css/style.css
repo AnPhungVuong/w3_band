@@ -77,13 +77,13 @@ html {
     margin-top: 16px !important;
 }
 #header {
-  --height: 46px;
+  height: 46px;
   background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
-  overflow: hidden;
+  
 }
 
 #nav {
@@ -113,7 +113,7 @@ html {
 
 #nav li a {
   text-decoration: none;
-  line-height: var(--height);
+  line-height: 46px;
   padding: 0px 24px;
   text-transform: uppercase;
   display: block;
@@ -163,7 +163,7 @@ html {
 #header .search-icon {
   color: white;
   font-size: 20px;
-  line-height: var(--height);
+  line-height: 46px;
 }
 
 #slider {
