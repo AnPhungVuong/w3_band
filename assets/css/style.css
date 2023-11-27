@@ -323,6 +323,11 @@ html {
     line-height: 1.5;
 }
 
+.contact-info a{
+  color:blue;
+  text-decoration: underline;
+}
+
 .contact-info i{
     width: 30px;
     display: inline-block;
@@ -473,6 +478,18 @@ map-section img{
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+
+@media (max-width:1023px){
+  .social-list{
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-list i{
+    font-size: 40px;
+  }
+
 }
 
 @media (min-width:740px){
