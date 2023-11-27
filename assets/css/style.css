@@ -33,6 +33,7 @@ html {
     padding: 8px 16px;
     margin-top: 16px;
     border: none;
+    text-align: center;
 }
 
 .btn:hover {
@@ -522,6 +523,17 @@ map-section img{
   }
 
   .s-col-full{
+    width: 100%;
+  }
+
+  .contact-form{
+    margin-top: 16px;
+}
+  .s-mt-8{
+    margin-top: 8px;
+  }
+
+  .s-full-width{
     width: 100%;
   }
 }
